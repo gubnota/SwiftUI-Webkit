@@ -13,6 +13,7 @@
 		94AAAE98248DC44700A308F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94AAAE97248DC44700A308F1 /* Assets.xcassets */; };
 		94AAAE9B248DC44700A308F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94AAAE9A248DC44700A308F1 /* Preview Assets.xcassets */; };
 		94AAAE9E248DC44700A308F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94AAAE9C248DC44700A308F1 /* LaunchScreen.storyboard */; };
+		94AAAEA6248DC56100A308F1 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 94AAAEA5248DC56100A308F1 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		94AAAE9A248DC44700A308F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		94AAAE9D248DC44700A308F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94AAAE9F248DC44700A308F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94AAAEA5248DC56100A308F1 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		94AAAE85248DC44500A308F1 = {
 			isa = PBXGroup;
 			children = (
+				94AAAEA5248DC56100A308F1 /* www */,
 				94AAAE90248DC44500A308F1 /* SwiftUIWebView */,
 				94AAAE8F248DC44500A308F1 /* Products */,
 			);
@@ -133,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94AAAEA6248DC56100A308F1 /* www in Resources */,
 				94AAAE9E248DC44700A308F1 /* LaunchScreen.storyboard in Resources */,
 				94AAAE9B248DC44700A308F1 /* Preview Assets.xcassets in Resources */,
 				94AAAE98248DC44700A308F1 /* Assets.xcassets in Resources */,
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -286,7 +290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIWebView/Preview Content\"";
-				DEVELOPMENT_TEAM = D46N46T6P6;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIWebView/Preview Content\"";
-				DEVELOPMENT_TEAM = D46N46T6P6;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
